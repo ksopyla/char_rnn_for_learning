@@ -27,7 +27,7 @@ License: BSD
 Requirements: 
 * tensorflow>=1.0
 
-## TensorFlow-Char-RNN by [@crazydonkey200]((https://github.com/crazydonkey200)
+## TensorFlow-Char-RNN by [@crazydonkey200](https://github.com/crazydonkey200)
 
 A TensorFlow implementation of Andrej Karpathy's Char-RNN, a character level language model using multilayer Recurrent Neural Network (RNN, LSTM or GRU)
 
