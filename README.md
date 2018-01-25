@@ -16,7 +16,7 @@ Andrej blog post ["The Unreasonable Effectiveness of Recurrent Neural Networks"]
 There is also youtube video, where he explains the implementation details
 https://www.youtube.com/watch?v=iX5V1WpxxkY
 
-### Vanilla Char-RNN using TensorFlow by Vinh Khuc [@knvinh](https://github.com/knvinh)
+### Vanilla Char-RNN using TensorFlow by Vinh Khuc [@vinhkhuc](https://github.com/vinhkhuc)
 
 Adapted from Karpathy's min-char-rnn.py https://gist.github.com/vinhkhuc/7ec5bf797308279dc587
 
