@@ -3,7 +3,7 @@ The repository contains working and tested scripts with different RNN implementa
 
 ## Minimal character-level RNN by Andrej Karpathy [@karpathy](https://github.com/karpathy)
 Minimal character-level Vanilla RNN model. 
-https://github.com/ksopyla/char_rnn_for_learning.git
+https://gist.github.com/karpathy/d4dee566867f8291f086
 
 License: BSD
 
