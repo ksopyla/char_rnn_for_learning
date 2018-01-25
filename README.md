@@ -1,7 +1,7 @@
 # Char-RNN implementations for learning
 The repository contains working and tested scripts with different RNN implementations. 
 
-## Minimal character-level RNN by Andrej Karpathy (@karpathy)
+## Minimal character-level RNN by Andrej Karpathy [@karpathy](https://github.com/karpathy)
 Minimal character-level Vanilla RNN model. 
 https://github.com/ksopyla/char_rnn_for_learning.git
 
@@ -16,7 +16,7 @@ Andrej blog post ["The Unreasonable Effectiveness of Recurrent Neural Networks"]
 There is also youtube video, where he explains the implementation details
 https://www.youtube.com/watch?v=iX5V1WpxxkY
 
-### Vanilla Char-RNN using TensorFlow by Vinh Khuc (@knvinh).
+### Vanilla Char-RNN using TensorFlow by Vinh Khuc [@knvinh](https://github.com/knvinh)
 
 Adapted from Karpathy's min-char-rnn.py https://gist.github.com/vinhkhuc/7ec5bf797308279dc587
 
@@ -27,7 +27,7 @@ License: BSD
 Requirements: 
 * tensorflow>=1.0
 
-## TensorFlow-Char-RNN by @crazydonkey200
+## TensorFlow-Char-RNN by [@crazydonkey200]((https://github.com/crazydonkey200)
 
 A TensorFlow implementation of Andrej Karpathy's Char-RNN, a character level language model using multilayer Recurrent Neural Network (RNN, LSTM or GRU)
 
