@@ -26,9 +26,8 @@ def show_dist(bins, prob):
 
 
 # Data I/O
-# data I/O
 file_name = 'data/pan-wolodyjowski.txt'
-#file_name ='data/janko-muzykant.txt'
+file_name ='data/janko-muzykant.txt'
 data = open(file_name, 'r').read() # should be simple plain text file
 
 chars = sorted(list(set(data)))
@@ -109,10 +108,13 @@ while True:
                                       feed_dict={inputs: input_vals,
                                                  targets: target_vals,
                                                  init_state: hprev_val})
-    if n % 2000 == 0:
+    
+    if n % 1000 == 0:
         # Progress
         print('iter: %d, p: %d, loss: %f' % (n, p, loss_val))
 
+    
+    if n % 5000 == 0:
         # Do sampling
         sample_length = 200
         start_ix      = random.randint(0, len(data) - seq_length)
