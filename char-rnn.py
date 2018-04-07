@@ -5,7 +5,7 @@ BSD License
 import numpy as np
 
 # data I/O
-file_name = 'pan-wolodyjowski.txt'
+file_name = 'data/pan-wolodyjowski.txt'
 file_name = 'data/janko-muzykant.txt'
 data = open(file_name, 'r').read() # should be simple plain text file
 chars = list(set(data))
