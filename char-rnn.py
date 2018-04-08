@@ -5,19 +5,22 @@ BSD License
 import numpy as np
 
 # data I/O
+
 file_name = 'data/pan-wolodyjowski.txt'
 file_name = 'data/janko-muzykant.txt'
+file_name = 'data/lorem_ipsum.txt'
 data = open(file_name, 'r').read() # should be simple plain text file
 chars = list(set(data))
 data_size, vocab_size = len(data), len(chars)
 print('data has %d characters, %d unique.' % (data_size, vocab_size))
+
 char_to_ix = { ch:i for i,ch in enumerate(chars) }
 ix_to_char = { i:ch for i,ch in enumerate(chars) }
 
 # hyperparameters
 hidden_size = 100 # size of hidden layer of neurons
 seq_length = 25 # number of steps to unroll the RNN for
-learning_rate = 1e-1
+learning_rate = 1e-2
 
 # model parameters
 Wxh = np.random.randn(hidden_size, vocab_size)*0.01 # input to hidden
